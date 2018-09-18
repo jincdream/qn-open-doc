@@ -13,6 +13,18 @@ $ cd demo
 $ npm i && wgather dev
 ```
 
+### 目录
+
+![](https://gw.alicdn.com/tfs/TB1LNpPba6qK1RjSZFmXXX0PFXa-235-417.png)
+
+需要增加页面的时候，只需在``containers``目录增加对应文件夹和文件即可。例如：
+```
+-containers
+  |-pageA
+    |-index.js
+    |-index.less
+```
+
 ### 需要开发的入口文件：
 - demo/src/containers/index
 
@@ -98,3 +110,8 @@ Runtime.invokePromise('Axios',{
 ```
 $ wgather build
 ```
+
+![](https://gw.alicdn.com/tfs/TB15AJObXYqK1RjSZLeXXbXppXa-438-405.png)
+
+只要将``app.worker.js``和``app.worker.bundle.css``静态资源进行发布即可。
+***！注意，*.worker.js、*.worker.bundle.css*** 后缀不要修改。
