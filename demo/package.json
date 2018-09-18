@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-react-css-modules": "^3.4.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "postcss-less": "^2.0.0",
+    "postcss-sass": "^0.3.2"
+  },
+  "dependencies": {
+    "worker-react": "^0.0.10",
+    "worker-react-render": "^0.0.10",
+    "worker-react-runtime": "^0.0.10"
+  }
+}
