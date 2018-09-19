@@ -6,6 +6,14 @@
 $ [sudo] npm install wgather -g
 ```
 
+## 模板
+
+模板在当前仓库的**demo**文件夹，clone下来即可。
+
+```
+$ git clone git@github.com:jincdream/qn-open-doc.git
+```
+
 ## 开发
 
 ```
