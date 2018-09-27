@@ -14,8 +14,8 @@
     "postcss-sass": "^0.3.2"
   },
   "dependencies": {
-    "worker-react": "^0.0.10",
-    "worker-react-render": "^0.0.10",
-    "worker-react-runtime": "^0.0.10"
+    "worker-react": "^0.0.12",
+    "worker-react-render": "^0.0.12",
+    "worker-react-runtime": "^0.0.12"
   }
 }
