@@ -113,6 +113,8 @@ Runtime.invokePromise('Axios',{
 })
 ```
 
+注意！：接口请求走的是*.taobao.com 的域名，需要配置跨域头。
+
 ## 打包发布
 
 ```
@@ -122,4 +124,7 @@ $ wgather build
 ![](https://gw.alicdn.com/tfs/TB15AJObXYqK1RjSZLeXXbXppXa-438-405.png)
 
 只要将``app.worker.js``和``app.worker.bundle.css``静态资源进行发布即可。
-***！注意，*.worker.js、*.worker.bundle.css*** 后缀不要修改。
+
+- ***！注意，*.worker.js、*.worker.bundle.css*** 后缀不要修改。
+- js文件和css文件的请求同样需要支持跨域 
+
