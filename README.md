@@ -128,3 +128,6 @@ $ wgather build
 - ***！注意，*.worker.js、*.worker.bundle.css*** 后缀不要修改。
 - js文件和css文件的请求同样需要支持跨域 
 
+## 其他
+
+跨域相关文档 https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS
