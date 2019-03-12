@@ -89,9 +89,10 @@ Runtime.invokePromise('Toast.error','error')
 
 #### API: QN相关
 
-| name | description |params|
-|-------- | -------- |------------ |
-| getActiveUser | 获取当前聊天用户Nick |-|
+| name | description |params|returns|
+|-------- | -------- |------------ |------------|
+| getActiveUser | 获取当前聊天用户Nick |-|{uid}|
+|getLoginuser|获取当前登录用户|-|{dnick,user_nick}|
 
 ```javascript
 Runtime.invokePromise('QN.getActiveUser').then(res=>{
