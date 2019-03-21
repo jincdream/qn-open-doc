@@ -51,10 +51,10 @@ https://alibaba.github.io/ice/component/grid
 无需应用直接使用即可(!注意：Grid.Row 要写成 Grid-Row)
 
 ```jsx
-<Grid-Row className="demo-row" align="top">
+<Grid-Row styleName="demo-row" align="top">
   <Grid-Col span="8">
     <div
-      className="demo-col-inset"
+      styleName="demo-col-inset"
       style={{ height: "100px", lineHeight: "100px" }}
     >
       col-8
